@@ -7,7 +7,8 @@ html{
 ::after {
   box-sizing: inherit;
 }
-.body{
+
+body{
     margin: 0px;
 }
 .container{
@@ -25,7 +26,6 @@ html{
 .site-navigation li {
     display: inline-block;
     margin-right: 45px;
-    margin-left: 45px;
     font-size: 16px;
    text-transform: uppercase;
    color: rgba(98, 98, 98, 255);
@@ -40,9 +40,11 @@ html{
 }
 
 .site-navigation {
+    text-decoration: none;
     margin: 0;
     font-size: 0;
-    padding: 105px;
+    padding-top: 76px;
+    padding-bottom: 105px;
     text-align: center;
 
 }
@@ -57,13 +59,14 @@ html{
     display: inline-block;
 width: 420px;
 margin: 0px;
-margin-bottom: 30px;
+margin-bottom: 90px;
 
 }
 
 .features-list-item img{
     margin: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    
 }
 .features-list-item:not(:nth-child(2n)) {
     margin-right: 60px;
@@ -71,7 +74,6 @@ margin-bottom: 30px;
 
 .text-page{
     margin: 0px;
-    margin-bottom: 35px;
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
 }
@@ -88,7 +90,7 @@ margin-bottom: 30px;
     text-transform: uppercase;
     color: rgba(180, 173, 158, 255);
     margin: 0;
-margin-bottom: 18px;
+    margin-bottom: 18px;
     }
  .load-more-button{
        width: 164px;
