@@ -7,7 +7,9 @@ html{
 ::after {
   box-sizing: inherit;
 }
-
+.body{
+    margin: 0px;
+}
 .container{
     width: 901px;
     margin: 0 auto;
@@ -69,7 +71,9 @@ margin-bottom: 30px;
 
 .text-page{
     margin: 0px;
-    margin-bottom: 18px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
 }
 
 .features-list-item h2 {
@@ -80,22 +84,13 @@ margin-bottom: 30px;
     font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
 }
 
-.features-list-item p  {
-    font-size: 14px;
-    color: rgba(98, 98, 98, 255);
-    margin: 0px;
-    margin-bottom: 30px;
-
-}
 .link-word {
     text-transform: uppercase;
     color: rgba(180, 173, 158, 255);
     margin: 0;
 margin-bottom: 18px;
     }
-
-   .load-more-button{
-   
+ .load-more-button{
        width: 164px;
        height: 60px;
        font-size: 16px;
@@ -104,7 +99,6 @@ margin-bottom: 18px;
        background-color: white;
       cursor: pointer;
       display: block;   
-      margin: 0 auto;
-       
+      margin: 0 auto;  
    }
 
