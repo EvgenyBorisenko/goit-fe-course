@@ -87,6 +87,7 @@ margin-bottom: 90px;
 }
 
 .link-word {
+    font-size: 14px;
     text-transform: uppercase;
     color: rgba(180, 173, 158, 255);
     margin: 0;
