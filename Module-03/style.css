@@ -16,6 +16,7 @@ html{
 
 .site-navigation a{
     color: rgba(98, 98, 98, 255);
+    display: block;
     
 }
 
@@ -28,13 +29,19 @@ html{
    color: rgba(98, 98, 98, 255);
 
 }
+.site-navigation li:last-child{
+    margin-right: 0; 
+    }
+
 .site-navigation a:hover{
     color: aqua;
 }
 
 .site-navigation {
     margin: 0;
+    font-size: 0;
     padding: 105px;
+    text-align: center;
 
 }
 .feature-list{
@@ -56,22 +63,23 @@ margin-bottom: 135px;
     margin-right: 60px;
 }
 
-.features-list-item:nth-last-child(-n +2) {
-    margin-bottom: 0px;
+.text-page{
+    margin: 0;
 }
 
 .features-list-item h2 {
+    margin: 0;
     font-size: 30px;
     color: rgba(98, 98, 98, 255);
     font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
 }
-.features-list-item p {
+
+.features-list-item p  {
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
+
 }
 .link-word {
-    margin-top: 34px;
-    margin-bottom: 34px;
     text-transform: uppercase;
     color: rgba(180, 173, 158, 255);
     }
