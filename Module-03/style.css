@@ -54,21 +54,27 @@ html{
 .features-list-item{
     display: inline-block;
 width: 420px;
-margin-bottom: 135px;
-
+margin: 0px;
+margin-bottom: 30px;
 
 }
 
+.features-list-item img{
+    margin: 0px;
+    margin-bottom: 30px;
+}
 .features-list-item:not(:nth-child(2n)) {
     margin-right: 60px;
 }
 
 .text-page{
-    margin: 0;
+    margin: 0px;
+    margin-bottom: 18px;
 }
 
 .features-list-item h2 {
-    margin: 0;
+    margin: 0px;
+    margin-bottom: 35px;
     font-size: 30px;
     color: rgba(98, 98, 98, 255);
     font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
@@ -77,28 +83,28 @@ margin-bottom: 135px;
 .features-list-item p  {
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
+    margin: 0px;
+    margin-bottom: 30px;
 
 }
 .link-word {
     text-transform: uppercase;
     color: rgba(180, 173, 158, 255);
+    margin: 0;
+margin-bottom: 18px;
     }
 
    .load-more-button{
-    position: center ;
-       border: none;
-       margin: 0;
-       padding: 21px,34px;
+   
        width: 164px;
        height: 60px;
-       font-size: 16pt;
+       font-size: 16px;
        color: rgba(98, 98, 98, 255);
        border: 1px solid #000;
        background-color: white;
       cursor: pointer;
-      position: relative;
-left: 50%;
-transform: translate(-50%, 0);
+      display: block;   
+      margin: 0 auto;
        
    }
 
