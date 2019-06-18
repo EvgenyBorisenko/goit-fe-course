@@ -11,16 +11,18 @@ html{
 }
 
 body{
-    margin: 0px; 
-    padding: 40px;
+    margin: 0px;
 }
 .container{
     width: 1110px;
-    margin: 0 auto;   
+    margin: 0 auto; 
+    
 }
 
-
-
+.logo{
+float: left;
+    
+}
 .page-header{
     margin-bottom: 108px;
 }
@@ -107,8 +109,6 @@ body{
 
 
 
-
-
 .product-img{
     width: 255px;
     height: 285px;
@@ -120,6 +120,14 @@ body{
     margin-right: 30px;
     margin-bottom: 32px;
    
+}
+
+.product:hover .product-text{
+    background-color: #4ec6ab
+}
+
+.product:hover .product-price{
+    background-color: #4ec6ab
 }
 
 
@@ -231,7 +239,7 @@ img {
     width: 350px;
     height: auto;
     margin-right: 30px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
     padding: 0px;
     float: left;   
 }
