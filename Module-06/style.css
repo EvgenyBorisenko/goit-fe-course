@@ -226,7 +226,6 @@ html {
 }
 
 .flex_container_wrap {
-    display: block;
     position: relative;
     width: 380px;
     height: 470px;
