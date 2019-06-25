@@ -1,0 +1,23 @@
+.inputs__wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 65%;
+}
+
+.form__wrapper{
+    display: flex;
+    font-family:row wrap;
+    justify-content: space-between;
+}
+.form__wrapper textarea{
+    flex-basis: 30%;
+}
+
+
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
