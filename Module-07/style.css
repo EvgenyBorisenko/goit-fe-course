@@ -216,7 +216,7 @@
 }
 
 .text__area {
-
+border-style: none;
     width: 100%;
     height: 100%;
     border: none;
@@ -256,4 +256,23 @@
     font-size: 14px;
     font-family: "MontserratB";
     color: #bbbbbb;
+}
+input:focus:valid {
+    border: 2px solid green;
+}
+
+input:focus:invalid {
+    border: 2px solid red;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea:focus:valid {
+    border: 2px solid green;
+}
+
+textarea:focus:invalid {
+    border: 2px solid red;
 }
