@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-.container--width {
-    max-width: 58.75rem;
-    margin: 0 auto;
-}
+
 
 .header {
     background-image: url("../img/bg.jpg");
@@ -16,6 +13,7 @@
     background-position: center 0;
     padding-bottom: 8.75rem;
     padding-top: 1.25rem;
+    margin-bottom: 70px;
 }
 
 /* .menu-container {
@@ -73,7 +71,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -107,7 +105,6 @@
 }
 
 .second-section{
-    padding-top: 70px;
     padding-bottom: 60px;
 }
 .second-headline{
@@ -138,7 +135,9 @@
     bottom: 0;
     right: 0;
 }
-
+.list-item{
+    margin-bottom: 30px;
+}
 .list-item:nth-of-type(2) .photo::after {
     content: url("../img/bottle.png");
 }
@@ -165,7 +164,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #8c8c8c;
-    margin-bottom: 30px;
+
 }
 .button-bot{
     display: block;
@@ -185,3 +184,4 @@
 /* 
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif; */
+
