@@ -1,0 +1,51 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  min-width: 1120px;
+  margin: 0 auto;
+}
+
+.navigation {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+
+  &_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    &:hover {
+      color: gold;
+      &::before{
+         visibility: visible;
+         opacity: 1;
+         transform: none;
+      }
+    }
+    &::before {
+       content: "";
+       width: 100%;
+       background: green;
+       height: 3px;
+       position: absolute;
+       bottom: -10px;
+       left: 0;
+       visibility: hidden;
+       opacity: 0;
+       transform: translateY(10px);
+       transition: .3s ease-in-out;
+
+    }
+  }
+}
