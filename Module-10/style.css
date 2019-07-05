@@ -31,6 +31,9 @@ html {
     padding-top: 20px;
 }
 
+
+
+
 .first {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -111,7 +114,34 @@ html {
     margin-top: 10px;
     background-color:#fce38a;
 
+}
+
+.header_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+
+    li {
+        &::after{
+            content: "";
+            display: none;
+            height: 3px;
+            width: 50px;
+            margin: 0 auto;
+            margin-top: 10px;
+            background-color:#fce38a;
+        
+        }
     }
+}
 
 
 .links_style:hover {
